@@ -54,8 +54,8 @@ char* utils::strip_unprintable(const char* s)
 
 int utils::hex_to_int(char hex) {
 	if ((hex >= 'A') && (hex <= 'F')) {
-		return char(hex - 'A' + 10);
+		return static_cast<char>(hex - 'A' + 10);
 	}
 
-	return char(hex - '0');
+	return static_cast<char>(hex - '0');
 }

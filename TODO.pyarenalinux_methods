@@ -1,10 +1,4 @@
 __init__(self,
-get_width(self):
-get_height(self):
-set_width(self,
-set_height(self,
-./src/trunk/DataExtraction/BSAHeader.py
-__init__(self,
 __repr__(self):
 get_name(self):
 get_u1(self):

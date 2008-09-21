@@ -1,8 +1,6 @@
 __init__(self,
 __getitem__(self,
 __repr__(self):
-ugly_print(self):
-pretty_print(self):
 create_inverse_code_table(self):
 make_inverse_code_table(self):
 rewind(self):

@@ -1,15 +1,4 @@
 __init__(self,
-__repr__(self):
-get_name(self):
-get_u1(self):
-get_size(self):
-get_u2(self):
-set_name(self,
-set_u1(self,
-set_size(self,
-set_u2(self,
-./src/trunk/DataExtraction/BSAIndexItem.py
-__init__(self,
 __getitem__(self,
 __repr__(self):
 ugly_print(self):

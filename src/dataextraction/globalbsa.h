@@ -24,6 +24,7 @@ class globalbsa {
     //std::ifstream ifs;
     unsigned long nr_entries;
     bsaindex index;
+    int inverse_code_table [INVERSE_CODE_TABLE_SIZE][INVERSE_CODE_TABLE_SIZE];
 
     /* private functions */
     void init();

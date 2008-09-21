@@ -51,3 +51,12 @@ char* utils::strip_unprintable(const char* s)
     return NULL;
   }
 }
+
+int utils::hex_to_int(char hex) {
+{
+	if ((hex >= 'A') && (hex <= 'F')) {
+		return char(hex - 'A' + 10);
+	}
+
+	return char(hex - '0');
+}

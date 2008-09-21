@@ -143,12 +143,11 @@ std::string globalbsa::to_string() const
 
 void globalbsa::make_inverse_code_table()
 {
-#if 0
-  for (int y = 0; y < INVERSE_CODE_TABLE_SIZE; y++)
+  for (int y = 0; y < INVERSE_CODE_TABLE_SIZE; y++) {
     for (int x = 0; x < INVERSE_CODE_TABLE_SIZE; x++) {
-      int inv = self.CODE_TABLE[y][x];
+      int inv = utils::hex_to_int(CODE_TABLE[y][x]);
 
-      inverse_code_table
+      inverse_code_table[y][inv] = x;
     }
-#endif
+  }
 }

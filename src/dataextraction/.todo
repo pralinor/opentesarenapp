@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<todo version="0.1.20">
+    <note priority="medium" time="1220471806">
+        bsacfa: define class
+    </note>
+    <note priority="medium" time="1220471896">
+        bsacfa: getters
+    </note>
+    <note priority="medium" time="1220471904">
+        bsacfa: setters
+    </note>
+    <note priority="medium" time="1220471973">
+        bsacfa: members - default_palette_red_first, header (bsaheader), offset, size, global_bsa_data (needed??), filename
+    </note>
+    <note priority="medium" time="1220554725">
+        bsacif: define class, members - headers, default_palette_red_first, filename, filesize, width, height, framenum, offset
+    </note>
+    <note priority="medium" time="1220554736">
+        bsacif: getters &amp; setters
+    </note>
+    <note priority="medium" time="1220554759">
+        bsacif: debug/reimplement dump
+    </note>
+    <note priority="medium" time="1220554779">
+        bsacif: debug/reimplement load
+    </note>
+</todo>

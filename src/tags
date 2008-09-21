@@ -1,0 +1,682 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run aclocal-1.10$/;"	m
+ACLOCAL	dataextraction/Makefile	/^ACLOCAL = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run aclocal-1.10$/;"	m
+ACLOCAL	utils/Makefile	/^ACLOCAL = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run aclocal-1.10$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	dataextraction/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+ACLOCAL_M4	utils/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run tar$/;"	m
+AMTAR	dataextraction/Makefile	/^AMTAR = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run tar$/;"	m
+AMTAR	utils/Makefile	/^AMTAR = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run tar$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = \\$/;"	m
+AM_CPPFLAGS	dataextraction/Makefile	/^AM_CPPFLAGS = \\$/;"	m
+AM_CPPFLAGS	utils/Makefile	/^AM_CPPFLAGS = \\$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AR	dataextraction/Makefile	/^AR = ar$/;"	m
+AR	utils/Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run autoconf$/;"	m
+AUTOCONF	dataextraction/Makefile	/^AUTOCONF = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run autoconf$/;"	m
+AUTOCONF	utils/Makefile	/^AUTOCONF = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run autoheader$/;"	m
+AUTOHEADER	dataextraction/Makefile	/^AUTOHEADER = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run autoheader$/;"	m
+AUTOHEADER	utils/Makefile	/^AUTOHEADER = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run automake-1.10$/;"	m
+AUTOMAKE	dataextraction/Makefile	/^AUTOMAKE = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run automake-1.10$/;"	m
+AUTOMAKE	utils/Makefile	/^AUTOMAKE = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run automake-1.10$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+AWK	dataextraction/Makefile	/^AWK = gawk$/;"	m
+AWK	utils/Makefile	/^AWK = gawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CC	dataextraction/Makefile	/^CC = gcc$/;"	m
+CC	utils/Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	dataextraction/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCDEPMODE	utils/Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	dataextraction/Makefile	/^CCLD = $(CC)$/;"	m
+CCLD	utils/Makefile	/^CCLD = $(CC)$/;"	m
+CFAS	dataextraction/bsaindex.h	/^      CFAS,$/;"	e	enum:bsaindex::ENTRY_TYPES
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	dataextraction/Makefile	/^CFLAGS = -g -O2$/;"	m
+CFLAGS	utils/Makefile	/^CFLAGS = -g -O2$/;"	m
+CIFS	dataextraction/bsaindex.h	/^      CIFS$/;"	e	enum:bsaindex::ENTRY_TYPES
+CODE_TABLE	dataextraction/globalbsa.cpp	/^const char* globalbsa::CODE_TABLE [16] = \\$/;"	m	class:globalbsa	file:
+CODE_TABLE	dataextraction/globalbsa.h	/^    const static char *CODE_TABLE[];$/;"	m	class:globalbsa
+COMPILE	dataextraction/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+COMPILE	utils/Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	dataextraction/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_FILES	utils/Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	dataextraction/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_HEADER	utils/Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPP	dataextraction/Makefile	/^CPP = gcc -E$/;"	m
+CPP	utils/Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	dataextraction/Makefile	/^CPPFLAGS = $/;"	m
+CPPFLAGS	utils/Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	dataextraction/Makefile	/^CTAGS = ctags$/;"	m
+CTAGS	utils/Makefile	/^CTAGS = ctags$/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXX	dataextraction/Makefile	/^CXX = g++$/;"	m
+CXX	utils/Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCOMPILE	dataextraction/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCOMPILE	utils/Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	dataextraction/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXCPP	utils/Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	dataextraction/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXDEPMODE	utils/Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	dataextraction/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXFLAGS	utils/Makefile	/^CXXFLAGS = -g -O2$/;"	m
+CXXLD	Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLD	dataextraction/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLD	utils/Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	Makefile	/^CXXLINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+CXXLINK	dataextraction/Makefile	/^CXXLINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+CXXLINK	utils/Makefile	/^CXXLINK = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	dataextraction/Makefile	/^CYGPATH_W = echo$/;"	m
+CYGPATH_W	utils/Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	dataextraction/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFAULT_INCLUDES	utils/Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	dataextraction/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEFS	utils/Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	dataextraction/Makefile	/^DEPDIR = .deps$/;"	m
+DEPDIR	utils/Makefile	/^DEPDIR = .deps$/;"	m
+DFAS	dataextraction/bsaindex.h	/^      DFAS,$/;"	e	enum:bsaindex::ENTRY_TYPES
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	dataextraction/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DISTFILES	utils/Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	dataextraction/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_COMMON	utils/Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(srcdir)\/Makefile.in$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(opentesarena_SOURCES)$/;"	m
+DIST_SOURCES	dataextraction/Makefile	/^DIST_SOURCES = $(libdataextraction_la_SOURCES)$/;"	m
+DIST_SOURCES	utils/Makefile	/^DIST_SOURCES = $(libutils_la_SOURCES)$/;"	m
+DIST_SUBDIRS	Makefile	/^DIST_SUBDIRS = $(SUBDIRS)$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	dataextraction/Makefile	/^DSYMUTIL = $/;"	m
+DSYMUTIL	utils/Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	dataextraction/Makefile	/^DUMPBIN = $/;"	m
+DUMPBIN	utils/Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_C	dataextraction/Makefile	/^ECHO_C = $/;"	m
+ECHO_C	utils/Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	dataextraction/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_N	utils/Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+ECHO_T	dataextraction/Makefile	/^ECHO_T = $/;"	m
+ECHO_T	utils/Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	dataextraction/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EGREP	utils/Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ENTRY_TYPES	dataextraction/bsaindex.h	/^    enum ENTRY_TYPES$/;"	g	class:bsaindex
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+ETAGS	dataextraction/Makefile	/^ETAGS = etags$/;"	m
+ETAGS	utils/Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXEEXT	dataextraction/Makefile	/^EXEEXT = $/;"	m
+EXEEXT	utils/Makefile	/^EXEEXT = $/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	dataextraction/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FGREP	utils/Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	dataextraction/Makefile	/^GREP = \/bin\/grep$/;"	m
+GREP	utils/Makefile	/^GREP = \/bin\/grep$/;"	m
+INSTALL	Makefile	/^INSTALL = \/bin\/install -c$/;"	m
+INSTALL	dataextraction/Makefile	/^INSTALL = \/bin\/install -c$/;"	m
+INSTALL	utils/Makefile	/^INSTALL = \/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	dataextraction/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_DATA	utils/Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	dataextraction/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_HEADER	utils/Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	dataextraction/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_PROGRAM	utils/Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	dataextraction/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	utils/Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	dataextraction/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INSTALL_STRIP_PROGRAM	utils/Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INVERSE_CODE_TABLE_SIZE	dataextraction/globalbsa.h	/^    const static short INVERSE_CODE_TABLE_SIZE = 16;$/;"	m	class:globalbsa
+LD	Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	dataextraction/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LD	utils/Makefile	/^LD = \/usr\/bin\/ld$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	dataextraction/Makefile	/^LDFLAGS = $/;"	m
+LDFLAGS	utils/Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	dataextraction/Makefile	/^LIBOBJS = $/;"	m
+LIBOBJS	utils/Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = -lboost_signals $/;"	m
+LIBS	dataextraction/Makefile	/^LIBS = -lboost_signals $/;"	m
+LIBS	utils/Makefile	/^LIBS = -lboost_signals $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	dataextraction/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIBTOOL	utils/Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	dataextraction/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LINK	utils/Makefile	/^LINK = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LIPO	dataextraction/Makefile	/^LIPO = $/;"	m
+LIPO	utils/Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LN_S	dataextraction/Makefile	/^LN_S = ln -s$/;"	m
+LN_S	utils/Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	dataextraction/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCOMPILE	utils/Makefile	/^LTCOMPILE = $(LIBTOOL) --tag=CC $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCXXCOMPILE	Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCXXCOMPILE	dataextraction/Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTCXXCOMPILE	utils/Makefile	/^LTCXXCOMPILE = $(LIBTOOL) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	dataextraction/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBOBJS	utils/Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+LTLIBRARIES	dataextraction/Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+LTLIBRARIES	utils/Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run makeinfo$/;"	m
+MAKEINFO	dataextraction/Makefile	/^MAKEINFO = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run makeinfo$/;"	m
+MAKEINFO	utils/Makefile	/^MAKEINFO = ${SHELL} \/home\/mano\/workspace\/opentesarena_trunk\/missing --run makeinfo$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	dataextraction/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MKDIR_P	utils/Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NAME_LENGTH	dataextraction/bsaindexentry.cpp	/^unsigned int bsaindexentry::NAME_LENGTH = 12;$/;"	m	class:bsaindexentry	file:
+NAME_LENGTH	dataextraction/bsaindexentry.h	/^    static unsigned int NAME_LENGTH;$/;"	m	class:bsaindexentry
+NAME_SIZE	dataextraction/globalbsa.h	/^    const static short NAME_SIZE = 16;$/;"	m	class:globalbsa
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	dataextraction/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NM	utils/Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NMEDIT	dataextraction/Makefile	/^NMEDIT = $/;"	m
+NMEDIT	utils/Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	dataextraction/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_INSTALL	utils/Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	dataextraction/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NORMAL_UNINSTALL	utils/Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	dataextraction/Makefile	/^OBJEXT = o$/;"	m
+OBJEXT	utils/Makefile	/^OBJEXT = o$/;"	m
+OGRE_CFLAGS	Makefile	/^OGRE_CFLAGS = -DOGRE_GUI_gtk -DOGRE_CONFIG_LITTLE_ENDIAN -I\/usr\/include\/OGRE  $/;"	m
+OGRE_CFLAGS	dataextraction/Makefile	/^OGRE_CFLAGS = -DOGRE_GUI_gtk -DOGRE_CONFIG_LITTLE_ENDIAN -I\/usr\/include\/OGRE  $/;"	m
+OGRE_CFLAGS	utils/Makefile	/^OGRE_CFLAGS = -DOGRE_GUI_gtk -DOGRE_CONFIG_LITTLE_ENDIAN -I\/usr\/include\/OGRE  $/;"	m
+OGRE_LIBS	Makefile	/^OGRE_LIBS = -lOgreMain  $/;"	m
+OGRE_LIBS	dataextraction/Makefile	/^OGRE_LIBS = -lOgreMain  $/;"	m
+OGRE_LIBS	utils/Makefile	/^OGRE_LIBS = -lOgreMain  $/;"	m
+OPEN_MODE	dataextraction/globalbsa.cpp	/^const std::ios::openmode globalbsa::OPEN_MODE = std::ios::in | std::ios::binary;$/;"	m	class:globalbsa	file:
+OPEN_MODE	dataextraction/globalbsa.h	/^    const static std::ios::openmode OPEN_MODE;$/;"	m	class:globalbsa
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL	dataextraction/Makefile	/^OTOOL = $/;"	m
+OTOOL	utils/Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	dataextraction/Makefile	/^OTOOL64 = $/;"	m
+OTOOL64	utils/Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = opentesarena$/;"	m
+PACKAGE	dataextraction/Makefile	/^PACKAGE = opentesarena$/;"	m
+PACKAGE	utils/Makefile	/^PACKAGE = opentesarena$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = trankas@gmail.com$/;"	m
+PACKAGE_BUGREPORT	dataextraction/Makefile	/^PACKAGE_BUGREPORT = trankas@gmail.com$/;"	m
+PACKAGE_BUGREPORT	utils/Makefile	/^PACKAGE_BUGREPORT = trankas@gmail.com$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = opentesarena$/;"	m
+PACKAGE_NAME	dataextraction/Makefile	/^PACKAGE_NAME = opentesarena$/;"	m
+PACKAGE_NAME	utils/Makefile	/^PACKAGE_NAME = opentesarena$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = opentesarena 0.1$/;"	m
+PACKAGE_STRING	dataextraction/Makefile	/^PACKAGE_STRING = opentesarena 0.1$/;"	m
+PACKAGE_STRING	utils/Makefile	/^PACKAGE_STRING = opentesarena 0.1$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = opentesarena$/;"	m
+PACKAGE_TARNAME	dataextraction/Makefile	/^PACKAGE_TARNAME = opentesarena$/;"	m
+PACKAGE_TARNAME	utils/Makefile	/^PACKAGE_TARNAME = opentesarena$/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.1$/;"	m
+PACKAGE_VERSION	dataextraction/Makefile	/^PACKAGE_VERSION = 0.1$/;"	m
+PACKAGE_VERSION	utils/Makefile	/^PACKAGE_VERSION = 0.1$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	dataextraction/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PATH_SEPARATOR	utils/Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG	dataextraction/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG	utils/Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	dataextraction/Makefile	/^POST_INSTALL = :$/;"	m
+POST_INSTALL	utils/Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	dataextraction/Makefile	/^POST_UNINSTALL = :$/;"	m
+POST_UNINSTALL	utils/Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	dataextraction/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_INSTALL	utils/Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	dataextraction/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	utils/Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(bin_PROGRAMS)$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	dataextraction/Makefile	/^RANLIB = ranlib$/;"	m
+RANLIB	utils/Makefile	/^RANLIB = ranlib$/;"	m
+RECURSIVE_CLEAN_TARGETS	Makefile	/^RECURSIVE_CLEAN_TARGETS = mostlyclean-recursive clean-recursive	\\$/;"	m
+RECURSIVE_TARGETS	Makefile	/^RECURSIVE_TARGETS = all-recursive check-recursive dvi-recursive \\$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SED	dataextraction/Makefile	/^SED = \/bin\/sed$/;"	m
+SED	utils/Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	dataextraction/Makefile	/^SET_MAKE = $/;"	m
+SET_MAKE	utils/Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	dataextraction/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SHELL	utils/Makefile	/^SHELL = \/bin\/sh$/;"	m
+SIZE	dataextraction/bsaindex.cpp	/^const unsigned short bsaindex::SIZE = 18;$/;"	m	class:bsaindex	file:
+SIZE	dataextraction/bsaindex.h	/^    const static unsigned short SIZE;$/;"	m	class:bsaindex
+SIZE_LENGTH	dataextraction/bsaindexentry.cpp	/^unsigned int bsaindexentry::SIZE_LENGTH = 2;$/;"	m	class:bsaindexentry	file:
+SIZE_LENGTH	dataextraction/bsaindexentry.h	/^    static unsigned int SIZE_LENGTH;$/;"	m	class:bsaindexentry
+SIZE_LENGTH	dataextraction/globalbsa.h	/^    const static short SIZE_LENGTH = 2;$/;"	m	class:globalbsa
+SOURCES	Makefile	/^SOURCES = $(opentesarena_SOURCES)$/;"	m
+SOURCES	dataextraction/Makefile	/^SOURCES = $(libdataextraction_la_SOURCES)$/;"	m
+SOURCES	utils/Makefile	/^SOURCES = $(libutils_la_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+STRIP	dataextraction/Makefile	/^STRIP = strip$/;"	m
+STRIP	utils/Makefile	/^STRIP = strip$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS = dataextraction utils$/;"	m
+UNKNOWNS_LENGTH	dataextraction/bsaindexentry.cpp	/^unsigned int bsaindexentry::UNKNOWNS_LENGTH = 2;$/;"	m	class:bsaindexentry	file:
+UNKNOWNS_LENGTH	dataextraction/bsaindexentry.h	/^    static unsigned int UNKNOWNS_LENGTH;$/;"	m	class:bsaindexentry
+UNKNOWNS_LENGTH	dataextraction/globalbsa.h	/^    const static short UNKNOWNS_LENGTH = 2;$/;"	m	class:globalbsa
+VERSION	Makefile	/^VERSION = 0.1$/;"	m
+VERSION	dataextraction/Makefile	/^VERSION = 0.1$/;"	m
+VERSION	utils/Makefile	/^VERSION = 0.1$/;"	m
+VOCS	dataextraction/bsaindex.h	/^      VOCS,$/;"	e	enum:bsaindex::ENTRY_TYPES
+_BSAHEADERCFA_H_	dataextraction/bsaheadercfa.h	2;"	d
+_BSAINDEXENTRY_H_	dataextraction/bsaindexentry.h	2;"	d
+_BSAINDEX_H_	dataextraction/bsaindex.h	2;"	d
+_BSA_HEADER_H_	dataextraction/bsaheader.h	2;"	d
+_DATAEXTRACTIONMAIN_H_	dataextraction/dataextractionmain.h	2;"	d
+_GLOBALBSA_H_	dataextraction/globalbsa.h	2;"	d
+_SUBSCRIPTABLEIFSTREAM_H_	utils/subscriptableifstream.h	2;"	d
+_UTILS_H_	utils/utils.h	2;"	d
+abs_builddir	Makefile	/^abs_builddir = \/home\/mano\/workspace\/opentesarena_trunk\/src$/;"	m
+abs_builddir	dataextraction/Makefile	/^abs_builddir = \/home\/mano\/workspace\/opentesarena_trunk\/src\/dataextraction$/;"	m
+abs_builddir	utils/Makefile	/^abs_builddir = \/home\/mano\/workspace\/opentesarena_trunk\/src\/utils$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/mano\/workspace\/opentesarena_trunk\/src$/;"	m
+abs_srcdir	dataextraction/Makefile	/^abs_srcdir = \/home\/mano\/workspace\/opentesarena_trunk\/src\/dataextraction$/;"	m
+abs_srcdir	utils/Makefile	/^abs_srcdir = \/home\/mano\/workspace\/opentesarena_trunk\/src\/utils$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/mano\/workspace\/opentesarena_trunk$/;"	m
+abs_top_builddir	dataextraction/Makefile	/^abs_top_builddir = \/home\/mano\/workspace\/opentesarena_trunk$/;"	m
+abs_top_builddir	utils/Makefile	/^abs_top_builddir = \/home\/mano\/workspace\/opentesarena_trunk$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/mano\/workspace\/opentesarena_trunk$/;"	m
+abs_top_srcdir	dataextraction/Makefile	/^abs_top_srcdir = \/home\/mano\/workspace\/opentesarena_trunk$/;"	m
+abs_top_srcdir	utils/Makefile	/^abs_top_srcdir = \/home\/mano\/workspace\/opentesarena_trunk$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	dataextraction/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CC	utils/Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	dataextraction/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_CXX	utils/Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	dataextraction/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_ct_DUMPBIN	utils/Makefile	/^ac_ct_DUMPBIN = $/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/libtool.m4 \\$/;"	m
+am__aclocal_m4_deps	dataextraction/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/libtool.m4 \\$/;"	m
+am__aclocal_m4_deps	utils/Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/libtool.m4 \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	dataextraction/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__cd	utils/Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	dataextraction/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__configure_deps	utils/Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	dataextraction/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__depfiles_maybe	utils/Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__include	dataextraction/Makefile	/^am__include = include$/;"	m
+am__include	utils/Makefile	/^am__include = include$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(bindir)"$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	dataextraction/Makefile	/^am__leading_dot = .$/;"	m
+am__leading_dot	utils/Makefile	/^am__leading_dot = .$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__quote	dataextraction/Makefile	/^am__quote = $/;"	m
+am__quote	utils/Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	dataextraction/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__tar	utils/Makefile	/^am__tar = ${AMTAR} chof - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	dataextraction/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am__untar	utils/Makefile	/^am__untar = ${AMTAR} xf -$/;"	m
+am_libdataextraction_la_OBJECTS	dataextraction/Makefile	/^am_libdataextraction_la_OBJECTS = globalbsa.lo bsaheader.lo \\$/;"	m
+am_libutils_la_OBJECTS	utils/Makefile	/^am_libutils_la_OBJECTS = subscriptableifstream.lo utils.lo$/;"	m
+am_opentesarena_OBJECTS	Makefile	/^am_opentesarena_OBJECTS = main.$(OBJEXT)$/;"	m
+begin	dataextraction/bsaindex.cpp	/^std::map<std::string, bsaindexentry&>::const_iterator bsaindex::begin() const$/;"	f	class:bsaindex
+begin	dataextraction/bsaindex.cpp	/^std::map<std::string, bsaindexentry&>::iterator bsaindex::begin()$/;"	f	class:bsaindex
+binPROGRAMS_INSTALL	Makefile	/^binPROGRAMS_INSTALL = $(INSTALL_PROGRAM)$/;"	m
+bin_PROGRAMS	Makefile	/^bin_PROGRAMS = opentesarena$(EXEEXT)$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	dataextraction/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bindir	utils/Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+bits_per_pixel	dataextraction/bsaheadercfa.h	/^    unsigned char bits_per_pixel;$/;"	m	class:bsaheadercfa
+bsacfa	dataextraction/bsacfa.h	/^class bsacfa {$/;"	c
+bsaheader	dataextraction/bsaheader.cpp	/^bsaheader::bsaheader():$/;"	f	class:bsaheader
+bsaheader	dataextraction/bsaheader.cpp	/^bsaheader::bsaheader(const unsigned short w, const unsigned short h):$/;"	f	class:bsaheader
+bsaheader	dataextraction/bsaheader.h	/^class bsaheader {$/;"	c
+bsaheadercfa	dataextraction/bsaheadercfa.cpp	/^bsaheadercfa::bsaheadercfa():$/;"	f	class:bsaheadercfa
+bsaheadercfa	dataextraction/bsaheadercfa.cpp	/^bsaheadercfa::bsaheadercfa(const unsigned short width_unc, const unsigned short height,$/;"	f	class:bsaheadercfa
+bsaheadercfa	dataextraction/bsaheadercfa.h	/^class bsaheadercfa: public bsaheader {$/;"	c
+bsaindex	dataextraction/bsaindex.cpp	/^bsaindex::bsaindex():$/;"	f	class:bsaindex
+bsaindex	dataextraction/bsaindex.cpp	/^bsaindex::bsaindex(const unsigned int entry_count, const unsigned long offset, const unsigned long file_size):$/;"	f	class:bsaindex
+bsaindex	dataextraction/bsaindex.h	/^class bsaindex {$/;"	c
+bsaindexentry	dataextraction/bsaindexentry.cpp	/^bsaindexentry::bsaindexentry():$/;"	f	class:bsaindexentry
+bsaindexentry	dataextraction/bsaindexentry.cpp	/^bsaindexentry::bsaindexentry(const char* name, const unsigned long size, const unsigned long offset, const bool has_override):$/;"	f	class:bsaindexentry
+bsaindexentry	dataextraction/bsaindexentry.cpp	/^bsaindexentry::bsaindexentry(const std::string name, const unsigned long size, const unsigned long offset, const bool has_override):$/;"	f	class:bsaindexentry
+bsaindexentry	dataextraction/bsaindexentry.h	/^class bsaindexentry {$/;"	c
+build	Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	dataextraction/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build	utils/Makefile	/^build = i686-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_alias	dataextraction/Makefile	/^build_alias = $/;"	m
+build_alias	utils/Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = i686$/;"	m
+build_cpu	dataextraction/Makefile	/^build_cpu = i686$/;"	m
+build_cpu	utils/Makefile	/^build_cpu = i686$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_os	dataextraction/Makefile	/^build_os = linux-gnu$/;"	m
+build_os	utils/Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	dataextraction/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_triplet	utils/Makefile	/^build_triplet = i686-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+build_vendor	dataextraction/Makefile	/^build_vendor = pc$/;"	m
+build_vendor	utils/Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+builddir	dataextraction/Makefile	/^builddir = .$/;"	m
+builddir	utils/Makefile	/^builddir = .$/;"	m
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	dataextraction/Makefile	/^datadir = ${datarootdir}$/;"	m
+datadir	utils/Makefile	/^datadir = ${datarootdir}$/;"	m
+dataextractionmain	dataextraction/dataextractionmain.cpp	/^dataextractionmain::dataextractionmain():$/;"	f	class:dataextractionmain
+dataextractionmain	dataextraction/dataextractionmain.cpp	/^dataextractionmain::dataextractionmain(const char* gbsa_filename):$/;"	f	class:dataextractionmain
+dataextractionmain	dataextraction/dataextractionmain.cpp	/^dataextractionmain::dataextractionmain(const std::string& gbsa_filename):$/;"	f	class:dataextractionmain
+dataextractionmain	dataextraction/dataextractionmain.h	/^class dataextractionmain {$/;"	c
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	dataextraction/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+datarootdir	utils/Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	dataextraction/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+depcomp	utils/Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	dataextraction/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+docdir	utils/Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	dataextraction/Makefile	/^dvidir = ${docdir}$/;"	m
+dvidir	utils/Makefile	/^dvidir = ${docdir}$/;"	m
+end	dataextraction/bsaindex.cpp	/^std::map<std::string, bsaindexentry&>::const_iterator bsaindex::end() const$/;"	f	class:bsaindex
+end	dataextraction/bsaindex.cpp	/^std::map<std::string, bsaindexentry&>::iterator bsaindex::end()$/;"	f	class:bsaindex
+entries	dataextraction/bsaindex.h	/^    std::map<std::string, bsaindexentry&> entries;$/;"	m	class:bsaindex
+entry_count	dataextraction/bsaindex.h	/^    unsigned int entry_count;$/;"	m	class:bsaindex
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	dataextraction/Makefile	/^exec_prefix = ${prefix}$/;"	m
+exec_prefix	utils/Makefile	/^exec_prefix = ${prefix}$/;"	m
+file_size	dataextraction/bsaindex.h	/^    unsigned long file_size;$/;"	m	class:bsaindex
+file_size	dataextraction/globalbsa.h	/^    off_t file_size;$/;"	m	class:globalbsa
+filename	dataextraction/globalbsa.h	/^    std::string filename;$/;"	m	class:globalbsa
+filename	utils/subscriptableifstream.h	/^    std::string filename;$/;"	m	class:subscriptableifstream
+frame_count	dataextraction/bsaheadercfa.h	/^    unsigned char frame_count;$/;"	m	class:bsaheadercfa
+gbsa	dataextraction/dataextractionmain.h	/^    globalbsa gbsa;$/;"	m	class:dataextractionmain
+get_bits_per_pixel	dataextraction/bsaheadercfa.cpp	/^unsigned char bsaheadercfa::get_bits_per_pixel() const$/;"	f	class:bsaheadercfa
+get_cfa_entries	dataextraction/bsaindex.cpp	/^std::list<bsaindexentry>* bsaindex::get_cfa_entries() const$/;"	f	class:bsaindex
+get_cif_entries	dataextraction/bsaindex.cpp	/^std::list<bsaindexentry>* bsaindex::get_cif_entries() const$/;"	f	class:bsaindex
+get_dfa_entries	dataextraction/bsaindex.cpp	/^std::list<bsaindexentry>* bsaindex::get_dfa_entries() const$/;"	f	class:bsaindex
+get_entries	dataextraction/bsaindex.cpp	/^std::list<bsaindexentry>* bsaindex::get_entries(ENTRY_TYPES entry_type) const$/;"	f	class:bsaindex
+get_entries	dataextraction/bsaindex.cpp	/^std::map<std::string, bsaindexentry&> bsaindex::get_entries() const$/;"	f	class:bsaindex
+get_entry_count	dataextraction/bsaindex.cpp	/^unsigned int bsaindex::get_entry_count() const$/;"	f	class:bsaindex
+get_file_size	dataextraction/bsaindex.cpp	/^unsigned long bsaindex::get_file_size() const$/;"	f	class:bsaindex
+get_file_size	dataextraction/globalbsa.cpp	/^off_t globalbsa::get_file_size() const$/;"	f	class:globalbsa
+get_filename	dataextraction/globalbsa.cpp	/^std::string globalbsa::get_filename() const$/;"	f	class:globalbsa
+get_filename	utils/subscriptableifstream.cpp	/^std::string subscriptableifstream::get_filename() const$/;"	f	class:subscriptableifstream
+get_frame_count	dataextraction/bsaheadercfa.cpp	/^unsigned char bsaheadercfa::get_frame_count() const$/;"	f	class:bsaheadercfa
+get_globalbsa	dataextraction/dataextractionmain.cpp	/^globalbsa dataextractionmain::get_globalbsa() const$/;"	f	class:dataextractionmain
+get_has_override	dataextraction/bsaindexentry.cpp	/^bool bsaindexentry::get_has_override() const$/;"	f	class:bsaindexentry
+get_header_size	dataextraction/bsaheadercfa.cpp	/^unsigned short bsaheadercfa::get_header_size() const$/;"	f	class:bsaheadercfa
+get_height	dataextraction/bsaheader.cpp	/^unsigned short bsaheader::get_height() const$/;"	f	class:bsaheader
+get_index	dataextraction/globalbsa.cpp	/^bsaindex globalbsa::get_index() const$/;"	f	class:globalbsa
+get_name	dataextraction/bsaindexentry.cpp	/^std::string bsaindexentry::get_name() const$/;"	f	class:bsaindexentry
+get_nr_entries	dataextraction/globalbsa.cpp	/^long globalbsa::get_nr_entries() const$/;"	f	class:globalbsa
+get_offset	dataextraction/bsaindex.cpp	/^unsigned long bsaindex::get_offset() const$/;"	f	class:bsaindex
+get_offset	dataextraction/bsaindexentry.cpp	/^unsigned long bsaindexentry::get_offset() const$/;"	f	class:bsaindexentry
+get_size	dataextraction/bsaindexentry.cpp	/^unsigned long bsaindexentry::get_size() const$/;"	f	class:bsaindexentry
+get_u2	dataextraction/bsaheadercfa.cpp	/^unsigned short bsaheadercfa::get_u2() const$/;"	f	class:bsaheadercfa
+get_u3	dataextraction/bsaheadercfa.cpp	/^unsigned short bsaheadercfa::get_u3() const$/;"	f	class:bsaheadercfa
+get_voc_entries	dataextraction/bsaindex.cpp	/^std::list<bsaindexentry>* bsaindex::get_voc_entries() const$/;"	f	class:bsaindex
+get_width	dataextraction/bsaheader.cpp	/^unsigned short bsaheader::get_width() const$/;"	f	class:bsaheader
+get_width_compressed	dataextraction/bsaheadercfa.cpp	/^unsigned short bsaheadercfa::get_width_compressed() const$/;"	f	class:bsaheadercfa
+get_width_uncompressed	dataextraction/bsaheadercfa.cpp	/^unsigned short bsaheadercfa::get_width_uncompressed() const$/;"	f	class:bsaheadercfa
+global_bsa_stream	dataextraction/globalbsa.h	/^    subscriptableifstream global_bsa_stream;$/;"	m	class:globalbsa
+globalbsa	dataextraction/globalbsa.cpp	/^globalbsa::globalbsa():$/;"	f	class:globalbsa
+globalbsa	dataextraction/globalbsa.cpp	/^globalbsa::globalbsa(const char *filename):$/;"	f	class:globalbsa
+globalbsa	dataextraction/globalbsa.cpp	/^globalbsa::globalbsa(const globalbsa& other):$/;"	f	class:globalbsa
+globalbsa	dataextraction/globalbsa.cpp	/^globalbsa::globalbsa(const std::string filename):$/;"	f	class:globalbsa
+globalbsa	dataextraction/globalbsa.h	/^class globalbsa {$/;"	c
+has_override	dataextraction/bsaindexentry.h	/^    bool has_override;$/;"	m	class:bsaindexentry
+header_size	dataextraction/bsaheadercfa.h	/^    unsigned short header_size;$/;"	m	class:bsaheadercfa
+height	dataextraction/bsaheader.h	/^    unsigned short height;$/;"	m	class:bsaheader
+host	Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	dataextraction/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host	utils/Makefile	/^host = i686-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_alias	dataextraction/Makefile	/^host_alias = $/;"	m
+host_alias	utils/Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = i686$/;"	m
+host_cpu	dataextraction/Makefile	/^host_cpu = i686$/;"	m
+host_cpu	utils/Makefile	/^host_cpu = i686$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_os	dataextraction/Makefile	/^host_os = linux-gnu$/;"	m
+host_os	utils/Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	dataextraction/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_triplet	utils/Makefile	/^host_triplet = i686-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+host_vendor	dataextraction/Makefile	/^host_vendor = pc$/;"	m
+host_vendor	utils/Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	dataextraction/Makefile	/^htmldir = ${docdir}$/;"	m
+htmldir	utils/Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	dataextraction/Makefile	/^includedir = ${prefix}\/include$/;"	m
+includedir	utils/Makefile	/^includedir = ${prefix}\/include$/;"	m
+index	dataextraction/globalbsa.h	/^    bsaindex index;$/;"	m	class:globalbsa
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	dataextraction/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+infodir	utils/Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init	dataextraction/globalbsa.cpp	/^void globalbsa::init()$/;"	f	class:globalbsa
+install_sh	Makefile	/^install_sh = $(SHELL) \/home\/mano\/workspace\/opentesarena_trunk\/install-sh$/;"	m
+install_sh	dataextraction/Makefile	/^install_sh = $(SHELL) \/home\/mano\/workspace\/opentesarena_trunk\/install-sh$/;"	m
+install_sh	utils/Makefile	/^install_sh = $(SHELL) \/home\/mano\/workspace\/opentesarena_trunk\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	dataextraction/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_DATA	utils/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	dataextraction/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_PROGRAM	utils/Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	dataextraction/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	utils/Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+libdataextraction_la_LIBADD	dataextraction/Makefile	/^libdataextraction_la_LIBADD =$/;"	m
+libdataextraction_la_OBJECTS	dataextraction/Makefile	/^libdataextraction_la_OBJECTS = $(am_libdataextraction_la_OBJECTS)$/;"	m
+libdataextraction_la_SOURCES	dataextraction/Makefile	/^libdataextraction_la_SOURCES = globalbsa.h							\\$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	dataextraction/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libdir	utils/Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	dataextraction/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libexecdir	utils/Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+libutils_la_LIBADD	utils/Makefile	/^libutils_la_LIBADD =$/;"	m
+libutils_la_OBJECTS	utils/Makefile	/^libutils_la_OBJECTS = $(am_libutils_la_OBJECTS)$/;"	m
+libutils_la_SOURCES	utils/Makefile	/^libutils_la_SOURCES = subscriptableifstream.h			\\$/;"	m
+list	Makefile	/^	list='$(DIST_SUBDIRS)'; for subdir in $$list; do \\$/;"	m
+load	dataextraction/bsaheadercfa.cpp	/^void bsaheadercfa::load(std::istream& is)$/;"	f	class:bsaheadercfa
+load	dataextraction/bsaindex.cpp	/^void bsaindex::load(std::istream& is)$/;"	f	class:bsaindex
+load	dataextraction/bsaindexentry.cpp	/^void bsaindexentry::load(std::istream& file)$/;"	f	class:bsaindexentry
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	dataextraction/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localedir	utils/Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	dataextraction/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+localstatedir	utils/Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lt_ECHO	Makefile	/^lt_ECHO = echo$/;"	m
+lt_ECHO	dataextraction/Makefile	/^lt_ECHO = echo$/;"	m
+lt_ECHO	utils/Makefile	/^lt_ECHO = echo$/;"	m
+main	main.cpp	/^int main(int argc, char**argv) {$/;"	f
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	dataextraction/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mandir	utils/Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	dataextraction/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkdir_p	utils/Makefile	/^mkdir_p = \/bin\/mkdir -p$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	dataextraction/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mkinstalldirs	utils/Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+name	dataextraction/bsaindexentry.h	/^    std::string name;$/;"	m	class:bsaindexentry
+noinst_LTLIBRARIES	Makefile	/^noinst_LTLIBRARIES = #libopentesarena.la$/;"	m
+noinst_LTLIBRARIES	dataextraction/Makefile	/^noinst_LTLIBRARIES = libdataextraction.la$/;"	m
+noinst_LTLIBRARIES	utils/Makefile	/^noinst_LTLIBRARIES = libutils.la$/;"	m
+nr_entries	dataextraction/globalbsa.h	/^    unsigned long nr_entries;$/;"	m	class:globalbsa
+offset	dataextraction/bsaindex.h	/^    unsigned long offset;$/;"	m	class:bsaindex
+offset	dataextraction/bsaindexentry.h	/^    unsigned long offset;$/;"	m	class:bsaindexentry
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	dataextraction/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+oldincludedir	utils/Makefile	/^oldincludedir = \/usr\/include$/;"	m
+opentesarena_DEPENDENCIES	Makefile	/^opentesarena_DEPENDENCIES = dataextraction\/libdataextraction.la \\$/;"	m
+opentesarena_LDADD	Makefile	/^opentesarena_LDADD = dataextraction\/libdataextraction.la	\\$/;"	m
+opentesarena_OBJECTS	Makefile	/^opentesarena_OBJECTS = $(am_opentesarena_OBJECTS)$/;"	m
+opentesarena_SOURCES	Makefile	/^opentesarena_SOURCES = main.cpp$/;"	m
+operator ++	utils/subscriptableifstream.cpp	/^void subscriptableifstream::operator++ (const int dummy)$/;"	f	class:subscriptableifstream
+operator +=	utils/subscriptableifstream.cpp	/^void subscriptableifstream::operator+= (const int i)$/;"	f	class:subscriptableifstream
+operator <<	dataextraction/bsaheadercfa.cpp	/^std::ostream& operator << (std::ostream& os, const bsaheadercfa& bhc)$/;"	f
+operator =	dataextraction/bsaheadercfa.cpp	/^bsaheadercfa& bsaheadercfa::operator =(const bsaheadercfa& other)$/;"	f	class:bsaheadercfa
+operator =	dataextraction/bsaindex.cpp	/^void bsaindex::operator= (const bsaindex& other)$/;"	f	class:bsaindex
+operator >>	dataextraction/bsaheadercfa.cpp	/^std::istream& operator >> (std::istream& is, bsaheadercfa& bhc)$/;"	f
+operator []	dataextraction/bsaindex.cpp	/^bsaindexentry& bsaindex::operator[] (const std::string& key)$/;"	f	class:bsaindex
+operator []	utils/subscriptableifstream.cpp	/^void* subscriptableifstream::operator[] (const int pos)$/;"	f	class:subscriptableifstream
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	dataextraction/Makefile	/^pdfdir = ${docdir}$/;"	m
+pdfdir	utils/Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/opentesarena$/;"	m
+pkgdatadir	dataextraction/Makefile	/^pkgdatadir = $(datadir)\/opentesarena$/;"	m
+pkgdatadir	utils/Makefile	/^pkgdatadir = $(datadir)\/opentesarena$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/opentesarena$/;"	m
+pkgincludedir	dataextraction/Makefile	/^pkgincludedir = $(includedir)\/opentesarena$/;"	m
+pkgincludedir	utils/Makefile	/^pkgincludedir = $(includedir)\/opentesarena$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/opentesarena$/;"	m
+pkglibdir	dataextraction/Makefile	/^pkglibdir = $(libdir)\/opentesarena$/;"	m
+pkglibdir	utils/Makefile	/^pkglibdir = $(libdir)\/opentesarena$/;"	m
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	dataextraction/Makefile	/^prefix = \/usr\/local$/;"	m
+prefix	utils/Makefile	/^prefix = \/usr\/local$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	dataextraction/Makefile	/^program_transform_name = s,x,x,$/;"	m
+program_transform_name	utils/Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+psdir	dataextraction/Makefile	/^psdir = ${docdir}$/;"	m
+psdir	utils/Makefile	/^psdir = ${docdir}$/;"	m
+read	dataextraction/bsaindexentry.cpp	/^void bsaindexentry::read(std::istream& file)$/;"	f	class:bsaindexentry
+read_index	dataextraction/globalbsa.cpp	/^void globalbsa::read_index()$/;"	f	class:globalbsa
+read_number_of_index_entries	dataextraction/globalbsa.cpp	/^void globalbsa::read_number_of_index_entries()$/;"	f	class:globalbsa
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	dataextraction/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbindir	utils/Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+set_bits_per_pixel	dataextraction/bsaheadercfa.cpp	/^void bsaheadercfa::set_bits_per_pixel(const unsigned char bpp)$/;"	f	class:bsaheadercfa
+set_entries	dataextraction/bsaindex.cpp	/^void bsaindex::set_entries(const std::map<std::string, bsaindexentry&> entries)$/;"	f	class:bsaindex
+set_entry_count	dataextraction/bsaindex.cpp	/^void bsaindex::set_entry_count(const unsigned int entry_count)$/;"	f	class:bsaindex
+set_file_size	dataextraction/bsaindex.cpp	/^void bsaindex::set_file_size(const unsigned long file_size)$/;"	f	class:bsaindex
+set_file_size	dataextraction/globalbsa.cpp	/^void globalbsa::set_file_size(const off_t file_size)$/;"	f	class:globalbsa
+set_filename	dataextraction/globalbsa.cpp	/^void globalbsa::set_filename(const char* fname)$/;"	f	class:globalbsa
+set_filename	dataextraction/globalbsa.cpp	/^void globalbsa::set_filename(const std::string fname)$/;"	f	class:globalbsa
+set_filename	utils/subscriptableifstream.cpp	/^void subscriptableifstream::set_filename(const char* fname)$/;"	f	class:subscriptableifstream
+set_filename	utils/subscriptableifstream.cpp	/^void subscriptableifstream::set_filename(const std::string& fname)$/;"	f	class:subscriptableifstream
+set_frame_count	dataextraction/bsaheadercfa.cpp	/^void bsaheadercfa::set_frame_count(const unsigned char frame_count)$/;"	f	class:bsaheadercfa
+set_has_override	dataextraction/bsaindexentry.cpp	/^void bsaindexentry::set_has_override(const bool has_override)$/;"	f	class:bsaindexentry
+set_header_size	dataextraction/bsaheadercfa.cpp	/^void bsaheadercfa::set_header_size(const unsigned short header_size)$/;"	f	class:bsaheadercfa
+set_height	dataextraction/bsaheader.cpp	/^void bsaheader::set_height(unsigned short h)$/;"	f	class:bsaheader
+set_index	dataextraction/globalbsa.cpp	/^void globalbsa::set_index(const bsaindex& idx)$/;"	f	class:globalbsa
+set_name	dataextraction/bsaindexentry.cpp	/^void bsaindexentry::set_name(const char* name)$/;"	f	class:bsaindexentry
+set_name	dataextraction/bsaindexentry.cpp	/^void bsaindexentry::set_name(const std::string name)$/;"	f	class:bsaindexentry
+set_nr_entries	dataextraction/globalbsa.cpp	/^void globalbsa::set_nr_entries(const long nr)$/;"	f	class:globalbsa
+set_offset	dataextraction/bsaindex.cpp	/^void bsaindex::set_offset(const unsigned long offset)$/;"	f	class:bsaindex
+set_offset	dataextraction/bsaindexentry.cpp	/^void bsaindexentry::set_offset(const unsigned long offset)$/;"	f	class:bsaindexentry
+set_size	dataextraction/bsaindexentry.cpp	/^void bsaindexentry::set_size(const unsigned long size)$/;"	f	class:bsaindexentry
+set_u2	dataextraction/bsaheadercfa.cpp	/^void bsaheadercfa::set_u2(const unsigned short u2)$/;"	f	class:bsaheadercfa
+set_u3	dataextraction/bsaheadercfa.cpp	/^void bsaheadercfa::set_u3(const unsigned short u3)$/;"	f	class:bsaheadercfa
+set_width	dataextraction/bsaheader.cpp	/^void bsaheader::set_width(unsigned short w)$/;"	f	class:bsaheader
+set_width_compressed	dataextraction/bsaheadercfa.cpp	/^void bsaheadercfa::set_width_compressed(const unsigned short w)$/;"	f	class:bsaheadercfa
+set_width_uncompressed	dataextraction/bsaheadercfa.cpp	/^void bsaheadercfa::set_width_uncompressed(const unsigned short w)$/;"	f	class:bsaheadercfa
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	dataextraction/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+sharedstatedir	utils/Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+size	dataextraction/bsaindexentry.h	/^    unsigned long size;$/;"	m	class:bsaindexentry
+size	utils/utils.cpp	/^long utils::size(std::istream &is) {$/;"	f	class:utils
+srcdir	Makefile	/^srcdir = .$/;"	m
+srcdir	dataextraction/Makefile	/^srcdir = .$/;"	m
+srcdir	utils/Makefile	/^srcdir = .$/;"	m
+strip_unprintable	utils/utils.cpp	/^char* utils::strip_unprintable(const char* s)$/;"	f	class:utils
+strip_unprintable	utils/utils.cpp	/^std::string* utils::strip_unprintable(const std::string s)$/;"	f	class:utils
+subdir	Makefile	/^subdir = src$/;"	m
+subdir	dataextraction/Makefile	/^subdir = src\/dataextraction$/;"	m
+subdir	utils/Makefile	/^subdir = src\/utils$/;"	m
+subscriptableifstream	utils/subscriptableifstream.cpp	/^subscriptableifstream::subscriptableifstream():$/;"	f	class:subscriptableifstream
+subscriptableifstream	utils/subscriptableifstream.cpp	/^subscriptableifstream::subscriptableifstream(const char* filename, const std::ios::openmode mode):$/;"	f	class:subscriptableifstream
+subscriptableifstream	utils/subscriptableifstream.cpp	/^subscriptableifstream::subscriptableifstream(const std::string filename, const std::ios::openmode mode):$/;"	f	class:subscriptableifstream
+subscriptableifstream	utils/subscriptableifstream.h	/^class subscriptableifstream: public std::ifstream {$/;"	c
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	dataextraction/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+sysconfdir	utils/Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+target_alias	dataextraction/Makefile	/^target_alias = $/;"	m
+target_alias	utils/Makefile	/^target_alias = $/;"	m
+test_bsaheadercfa	main.cpp	/^void test_bsaheadercfa()$/;"	f
+test_bsaindexentry	main.cpp	/^void test_bsaindexentry()$/;"	f
+test_dataextractionmain	main.cpp	/^void test_dataextractionmain(const char* f) {$/;"	f
+test_globalbsa	main.cpp	/^void test_globalbsa()$/;"	f
+test_strip_unprintable	main.cpp	/^void test_strip_unprintable()$/;"	f
+to_string	dataextraction/bsaheader.cpp	/^std::string bsaheader::to_string() const$/;"	f	class:bsaheader
+to_string	dataextraction/bsaheadercfa.cpp	/^std::string bsaheadercfa::to_string() const$/;"	f	class:bsaheadercfa
+to_string	dataextraction/bsaindex.cpp	/^std::string bsaindex::to_string() const$/;"	f	class:bsaindex
+to_string	dataextraction/bsaindexentry.cpp	/^std::string bsaindexentry::to_string() const$/;"	f	class:bsaindexentry
+to_string	dataextraction/dataextractionmain.cpp	/^std::string dataextractionmain::to_string() const$/;"	f	class:dataextractionmain
+to_string	dataextraction/globalbsa.cpp	/^std::string globalbsa::to_string() const$/;"	f	class:globalbsa
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_build_prefix	dataextraction/Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_build_prefix	utils/Makefile	/^top_build_prefix = ..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_builddir	dataextraction/Makefile	/^top_builddir = ..\/..$/;"	m
+top_builddir	utils/Makefile	/^top_builddir = ..\/..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
+top_srcdir	dataextraction/Makefile	/^top_srcdir = ..\/..$/;"	m
+top_srcdir	utils/Makefile	/^top_srcdir = ..\/..$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	dataextraction/Makefile	/^transform = $(program_transform_name)$/;"	m
+transform	utils/Makefile	/^transform = $(program_transform_name)$/;"	m
+u2	dataextraction/bsaheadercfa.h	/^    unsigned short u2;$/;"	m	class:bsaheadercfa
+u3	dataextraction/bsaheadercfa.h	/^    unsigned short u3;$/;"	m	class:bsaheadercfa
+utils	utils/utils.h	/^class utils {$/;"	c
+width	dataextraction/bsaheader.h	/^    unsigned short width;$/;"	m	class:bsaheader
+width_compressed	dataextraction/bsaheadercfa.h	/^    unsigned short width_compressed;$/;"	m	class:bsaheadercfa
+width_uncompressed	dataextraction/bsaheadercfa.h	/^    unsigned short width_uncompressed;$/;"	m	class:bsaheadercfa
+~bsaheader	dataextraction/bsaheader.cpp	/^bsaheader::~bsaheader()$/;"	f	class:bsaheader
+~bsaheadercfa	dataextraction/bsaheadercfa.cpp	/^bsaheadercfa::~bsaheadercfa()$/;"	f	class:bsaheadercfa
+~bsaindex	dataextraction/bsaindex.cpp	/^bsaindex::~bsaindex()$/;"	f	class:bsaindex
+~bsaindexentry	dataextraction/bsaindexentry.cpp	/^bsaindexentry::~bsaindexentry()$/;"	f	class:bsaindexentry
+~dataextractionmain	dataextraction/dataextractionmain.cpp	/^dataextractionmain::~dataextractionmain()$/;"	f	class:dataextractionmain
+~globalbsa	dataextraction/globalbsa.cpp	/^globalbsa::~globalbsa()$/;"	f	class:globalbsa
+~subscriptableifstream	utils/subscriptableifstream.cpp	/^subscriptableifstream::~subscriptableifstream()$/;"	f	class:subscriptableifstream

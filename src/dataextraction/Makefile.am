@@ -15,5 +15,7 @@ libdataextraction_la_SOURCES =	globalbsa.h							\
 																bsaindex.cpp						\
 																bsaindexentry.h					\
 																bsaindexentry.cpp				\
+																bsafontelement.h				\
+																bsafontelement.cpp			\
 																dataextractionmain.h		\
 																dataextractionmain.cpp

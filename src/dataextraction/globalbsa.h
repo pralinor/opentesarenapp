@@ -6,6 +6,7 @@
 
 #include "../utils/utils.h"
 #include "../utils/subscriptableifstream.h"
+#include "bsaindexentry.h"
 #include "bsaindex.h"
 
 class globalbsa {
@@ -21,7 +22,6 @@ class globalbsa {
     std::string filename;
     off_t file_size;
     subscriptableifstream global_bsa_stream;
-    //std::ifstream ifs;
     unsigned long nr_entries;
     bsaindex index;
     int inverse_code_table [INVERSE_CODE_TABLE_SIZE][INVERSE_CODE_TABLE_SIZE];
@@ -53,6 +53,11 @@ class globalbsa {
     virtual std::string to_string() const;
 
     virtual void make_inverse_code_table();
+
+    virtual std::list<bsaindexentry>* get_voc_entries() const;
+    virtual std::list<bsaindexentry>* get_cfa_entries() const;
+    virtual std::list<bsaindexentry>* get_dfa_entries() const;
+    virtual std::list<bsaindexentry>* get_cif_entries() const;
 };
 
 #endif /* _GLOBALBSA_H_ */

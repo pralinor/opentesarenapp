@@ -151,3 +151,20 @@ void globalbsa::make_inverse_code_table()
     }
   }
 }
+
+std::list<bsaindexentry>* globalbsa::get_voc_entries() const {
+  return index.get_voc_entries();
+}
+
+std::list<bsaindexentry>* globalbsa::get_cfa_entries() const {
+  return index.get_cfa_entries();
+}
+
+std::list<bsaindexentry>* globalbsa::get_dfa_entries() const {
+  return index.get_dfa_entries();
+}
+
+std::list<bsaindexentry>* globalbsa::get_cif_entries() const {
+  return index.get_cif_entries();
+}
+

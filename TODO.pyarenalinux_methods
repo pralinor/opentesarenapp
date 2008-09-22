@@ -1,10 +1,6 @@
 __init__(self,
 __getitem__(self,
 __repr__(self):
-create_inverse_code_table(self):
-make_inverse_code_table(self):
-rewind(self):
-fast_forward(self):
 parse_index(self):
 load(self):
 get_file_size(self):

@@ -1,13 +1,4 @@
 __init__(self,
-__repr__(self):
-set_height(self,
-set_width(self,
-get_height(self):
-get_width(self):
-get_lines(self):
-add_line(self,
-./src/trunk/DataExtraction/BSAFontElement.py
-__init__(self,
 =
 =
 get_header(self):

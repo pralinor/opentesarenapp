@@ -38,9 +38,9 @@ unsigned short bsaheader::get_height() const
 
 std::string bsaheader::to_string() const
 {
-	boost::format fmt(
-			"bsaheader: [width=%d|height=%d]");
+	boost::format fmt("bsaheader: [width=%d|height=%d]");
 	fmt % get_width() % get_height();
+
 	return fmt.str();
 }
 

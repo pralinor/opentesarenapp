@@ -7,6 +7,19 @@
 
 #include <boost/format.hpp>
 
+#define CFA_HEADER_SIZE_IN_BYTES 14
+
+struct HeaderCFA {
+  unsigned short width_uncompressed; // actual width of the image
+  unsigned short height;
+  unsigned short width_compressed; // bytes/line of bit-packed image
+  unsigned short u2;
+  unsigned short u3;
+  unsigned char bits_per_pixel; // indicates how to demux the encoded pixels
+  unsigned char frame_count;
+  unsigned short header_size; // this also includes the color LUT following the header
+};
+
 class bsaheadercfa: public bsaheader {
   private:
     unsigned short width_uncompressed;
@@ -21,7 +34,7 @@ class bsaheadercfa: public bsaheader {
     bsaheadercfa();
     bsaheadercfa(const unsigned short w_unc, const unsigned short height,
         const unsigned short w_comp, const unsigned short u2, const unsigned short u3,
-        const unsigned char bpp, const unsigned char frame_c, const unsigned short header_sz);
+        const unsigned char bpp, const unsigned char frame_c);
     virtual ~bsaheadercfa();
 
     virtual unsigned short get_width_uncompressed() const;
@@ -38,7 +51,7 @@ class bsaheadercfa: public bsaheader {
 	  virtual void set_u3(const unsigned short u3);
 	  virtual void set_bits_per_pixel(const unsigned char bpp);
 	  virtual void set_frame_count(const unsigned char frame_c);
-	  virtual void set_header_size(const unsigned short header_s);
+    virtual void set_header_size(const unsigned short header_s);
 	
 	  virtual std::string to_string() const;
 
@@ -48,7 +61,7 @@ class bsaheadercfa: public bsaheader {
 	  friend std::istream& operator >> (std::istream& ifs,
         bsaheadercfa& bhc);
 
-    virtual void load(std::istream& is);
+    virtual void load(std::istream& is, const unsigned int offset);
 };
 
 #endif /* _BSAHEADERCFA_H_ */

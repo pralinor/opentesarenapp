@@ -11,6 +11,8 @@ libdataextraction_la_SOURCES =	globalbsa.h							\
 																bsaheader.cpp						\
 																bsaheadercfa.h					\
 																bsaheadercfa.cpp				\
+																bsaheaderdfa.h					\
+																bsaheaderdfa.cpp				\
 																bsaindex.h							\
 																bsaindex.cpp						\
 																bsaindexentry.h					\

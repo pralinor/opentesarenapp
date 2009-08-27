@@ -40,8 +40,11 @@ void subscriptableifstream::set_filename(const char* fname)
 void* subscriptableifstream::operator[] (const int pos)
 {
   if (good()) {
-    void* temp = (void*) get();
+    /*
+	void* temp = (void*) get();
     unget();
+    */
+	void *temp = (void*)peek();
     return temp;
   } else {
     return NULL;
@@ -57,4 +60,12 @@ void subscriptableifstream::operator+= (const int i)
 void subscriptableifstream::operator++ (const int dummy)
 {
   *this += 1;
+}
+
+void subscriptableifstream::start(void) {
+	seekg(0, std::ios::beg);
+}
+
+void subscriptableifstream::end(void) {
+	seekg(0, std::ios::end);
 }

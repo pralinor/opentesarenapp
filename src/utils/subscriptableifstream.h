@@ -22,6 +22,9 @@ class subscriptableifstream: public std::ifstream {
     virtual void* operator[] (const int pos);
     virtual void operator+= (const int i);
     virtual void operator++ (const int dummy);
+
+    virtual void start(void);
+    virtual void end(void);
 };
 
 #endif /* _SUBSCRIPTABLEIFSTREAM_H_ */

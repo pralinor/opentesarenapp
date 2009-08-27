@@ -15,9 +15,10 @@ void test_bsaheadercfa()
   std::cout << bhcfa << std::endl;
 
   subscriptableifstream s("/home/mano/teste.txt", std::ifstream::in);
+
   for (int i = 0; i < 10; i++) {
     if (!s.eof()) {
-      char c = (char)(int)s[i];
+      char c = (char)(size_t)s[i];
       if (c != '\n') {
         std::cout << c << std::endl;
         s++;

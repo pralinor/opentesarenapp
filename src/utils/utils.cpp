@@ -11,6 +11,8 @@ long utils::size(std::istream &is) {
     size = is.tellg();
 
     is.seekg(curr_pos, std::ios::beg);
+  } else {
+	  std::cout << " is bad" << std::endl;
   }
 
   return size;

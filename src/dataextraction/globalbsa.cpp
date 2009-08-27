@@ -46,7 +46,10 @@ globalbsa::globalbsa(const std::string filename):
   nr_entries(),
   index()
 {
-  init();
+	if (global_bsa_stream.good())
+			init();
+		else
+			;
 }
 
 globalbsa::globalbsa(const globalbsa& other):
@@ -56,7 +59,10 @@ globalbsa::globalbsa(const globalbsa& other):
   nr_entries(),
   index()
 {
-  init();
+	if (global_bsa_stream.good())
+		init();
+	else
+		;
 }
 
 globalbsa::~globalbsa()
@@ -77,7 +83,13 @@ void globalbsa::init()
  */
 void globalbsa::read_number_of_index_entries()
 {
-  global_bsa_stream.read(reinterpret_cast<char *>(&nr_entries), 2);
+	int n_entries = 0;
+	//global_bsa_stream.start();
+	char coiso[2];
+	//global_bsa_stream.read(coiso, 2);
+	//std::cout << "coiso: " << coiso << std::endl;
+  //global_bsa_stream.read(reinterpret_cast<char *>(&nr_entries), 2);
+	global_bsa_stream >> nr_entries;
 }
 
 long globalbsa::get_nr_entries() const

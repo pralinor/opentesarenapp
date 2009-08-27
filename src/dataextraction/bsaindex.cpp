@@ -163,7 +163,7 @@ void bsaindex::load(std::istream& is)
   // all data is packed without any padding, we need to accumulate the
   // sizes to figure out the offset of each file within Global.BSA. 
 
-  for (int entry_number = 0; entry_number < get_entry_count(); entry_number++) {
+  for (unsigned int entry_number = 0; entry_number < get_entry_count(); entry_number++) {
     bsaindexentry* e = new bsaindexentry();
     e->set_offset(local_offset);
     try {

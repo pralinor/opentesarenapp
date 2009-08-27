@@ -44,6 +44,10 @@ void bsafontelement::add_line(const unsigned short line) {
   lines.push_back(line);
 }
 
+void bsafontelement::set_lines(const std::vector<unsigned short> l) {
+	lines = l;
+}
+
 std::string bsafontelement::to_string() const {
   /* TODO: add lines to the output */
   boost::format fmt("bsafontelement: [width=%d|height=%d");

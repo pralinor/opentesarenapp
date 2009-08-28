@@ -21,7 +21,7 @@ class bsaindex {
       CIFS
     };
 
-    unsigned int entry_count;
+    unsigned long entry_count;
     unsigned long offset;
     std::map<std::string, bsaindexentry&> entries;
     unsigned long file_size;
@@ -32,7 +32,7 @@ class bsaindex {
     ~bsaindex();
 
 
-    virtual void set_entry_count(const unsigned int entry_count);
+    virtual void set_entry_count(const unsigned long entry_count);
     virtual void set_offset(const unsigned long offset);
     virtual void set_entries(const std::map<std::string, bsaindexentry&> entries);
     virtual void set_file_size(const unsigned long file_size);

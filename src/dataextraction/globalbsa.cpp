@@ -36,7 +36,13 @@ globalbsa::globalbsa(const char *filename):
   nr_entries(),
   index()
 {
-  init();
+
+	std::cout << "good: " << global_bsa_stream.good() << std::endl;
+
+	//if (global_bsa_stream.good())
+		init();
+	//else
+	//	throw -2;
 }
 
 globalbsa::globalbsa(const std::string filename):
@@ -46,10 +52,11 @@ globalbsa::globalbsa(const std::string filename):
   nr_entries(),
   index()
 {
+	//std::cout << "good: " << global_bsa_stream.good() << std::endl;
 	if (global_bsa_stream.good())
-			init();
-		else
-			;
+		init();
+	else
+		throw -2;
 }
 
 globalbsa::globalbsa(const globalbsa& other):
@@ -59,10 +66,11 @@ globalbsa::globalbsa(const globalbsa& other):
   nr_entries(),
   index()
 {
+	std::cout << "good: " << global_bsa_stream.good() << std::endl;
 	if (global_bsa_stream.good())
 		init();
 	else
-		;
+		throw -2;
 }
 
 globalbsa::~globalbsa()
@@ -71,6 +79,7 @@ globalbsa::~globalbsa()
 
 void globalbsa::init()
 {
+
   file_size = utils::size(global_bsa_stream);
 
   read_number_of_index_entries();
@@ -83,13 +92,13 @@ void globalbsa::init()
  */
 void globalbsa::read_number_of_index_entries()
 {
-	int n_entries = 0;
-	//global_bsa_stream.start();
-	char coiso[2];
-	//global_bsa_stream.read(coiso, 2);
-	//std::cout << "coiso: " << coiso << std::endl;
-  //global_bsa_stream.read(reinterpret_cast<char *>(&nr_entries), 2);
-	global_bsa_stream >> nr_entries;
+	unsigned short* n = 0;
+	char buf[2];
+
+	global_bsa_stream.read(buf, 2);
+	n = reinterpret_cast<unsigned short*>(buf);
+
+	nr_entries = static_cast<unsigned long>(*n);
 }
 
 long globalbsa::get_nr_entries() const

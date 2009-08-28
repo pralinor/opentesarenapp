@@ -22,7 +22,7 @@ bsaindex::~bsaindex()
 {
 }
 
-void bsaindex::set_entry_count(const unsigned int entry_count)
+void bsaindex::set_entry_count(const unsigned long entry_count)
 {
   this->entry_count = entry_count;
 }
@@ -65,15 +65,18 @@ unsigned long bsaindex::get_file_size() const
 std::string bsaindex::to_string() const
 {
  	boost::format fmt("bsaindex: [entry_count=%d|offset=%d|entries=%s|file_size=%d]");
-  std::string temp("<");
+ 	std::string temp("<");
 
-  std::map<std::string, bsaindexentry&>::const_iterator it;
-  for (it = entries.begin(); it != entries.end(); it++) {
-    bsaindexentry temp_bie = it->second;
-    temp += temp_bie.to_string();
-    temp += ",";
-  }
-  temp += ">";
+ 	if (entries.size() > 0) {
+ 		std::map<std::string, bsaindexentry&>::const_iterator it;
+
+ 		for (it = entries.begin(); it != entries.end(); it++) {
+// 			bsaindexentry temp_bie = it->second;
+// 			temp += temp_bie.to_string();
+// 			temp += ",";
+ 			}
+ 	}
+ 	temp += ">";
 
 	fmt % get_entry_count() % get_offset() % temp % get_file_size();
 	return fmt.str();

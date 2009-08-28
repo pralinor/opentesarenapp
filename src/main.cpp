@@ -65,8 +65,14 @@ int main(int argc, char**argv) {
 
   //test_bsaindexentry();
   //test_strip_unprintable();
-  if (argc >= 2)
-    test_dataextractionmain(argv[1]);
+  if (argc >= 2) {
+	  try {
+		  test_dataextractionmain(argv[1]);
+	  } catch (int e) {
+		  std::cout << "exception: " << e << std::endl;
+	  }
+  }
+
   else
     std::cout << "no go! " << argc << std::endl;
   return 0;

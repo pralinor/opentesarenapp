@@ -32,7 +32,7 @@ void bsaindex::set_offset(const unsigned long offset)
   this->offset = offset;
 }
 
-void bsaindex::set_entries(const std::map<std::string, bsaindexentry&> entries)
+void bsaindex::set_entries(const std::map<std::string, bsaindexentry> entries)
 {
   this->entries = entries;
 }
@@ -52,7 +52,7 @@ unsigned long bsaindex::get_offset() const
   return offset;
 }
 
-std::map<std::string, bsaindexentry&> bsaindex::get_entries() const
+std::map<std::string, bsaindexentry> bsaindex::get_entries() const
 {
   return this->entries;
 }
@@ -68,7 +68,7 @@ std::string bsaindex::to_string() const
  	std::string temp("<");
 
  	if (entries.size() > 0) {
- 		std::map<std::string, bsaindexentry&>::const_iterator it;
+ 		std::map<std::string, bsaindexentry>::const_iterator it;
 
  		for (it = entries.begin(); it != entries.end(); it++) {
 // 			bsaindexentry temp_bie = it->second;
@@ -82,36 +82,36 @@ std::string bsaindex::to_string() const
 	return fmt.str();
 }
 
-std::map<std::string, bsaindexentry&>::iterator bsaindex::begin()
+std::map<std::string, bsaindexentry>::iterator bsaindex::begin()
 {
   return entries.begin();
 }
 
-std::map<std::string, bsaindexentry&>::const_iterator bsaindex::begin() const
+std::map<std::string, bsaindexentry>::const_iterator bsaindex::begin() const
 {
   return entries.begin();
 }
 
-std::map<std::string, bsaindexentry&>::iterator bsaindex::end()
+std::map<std::string, bsaindexentry>::iterator bsaindex::end()
 {
   return entries.end();
 }
 
-std::map<std::string, bsaindexentry&>::const_iterator bsaindex::end() const
+std::map<std::string, bsaindexentry>::const_iterator bsaindex::end() const
 {
   return entries.end();
 }
 
 bsaindexentry& bsaindex::operator[] (const std::string& key)
 {
-  return entries[key];
+    return entries[key];
 }
 
 std::list<bsaindexentry>* bsaindex::get_entries(ENTRY_TYPES entry_type) const
 {
   std::list<bsaindexentry>* ret = new std::list<bsaindexentry>();
 
-  std::map<std::string, bsaindexentry&>::const_iterator it;
+  std::map<std::string, bsaindexentry>::const_iterator it;
   
   for (it = entries.begin(); it!= entries.end(); it++) {
     std::string key = it->first;

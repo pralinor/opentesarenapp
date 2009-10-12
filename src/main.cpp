@@ -67,9 +67,10 @@ int main(int argc, char**argv) {
   //test_strip_unprintable();
   if (argc >= 2) {
 	  try {
-		  test_dataextractionmain(argv[1]);
+              std::cout << "file: " << argv[1] << std::endl;
+              test_dataextractionmain(argv[1]);
 	  } catch (int e) {
-		  std::cout << "exception: " << e << std::endl;
+              std::cout << "exception: " << e << std::endl;
 	  }
   }
 

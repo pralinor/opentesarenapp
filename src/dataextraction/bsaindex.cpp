@@ -71,9 +71,9 @@ std::string bsaindex::to_string() const
  		std::map<std::string, bsaindexentry>::const_iterator it;
 
  		for (it = entries.begin(); it != entries.end(); it++) {
-// 			bsaindexentry temp_bie = it->second;
-// 			temp += temp_bie.to_string();
-// 			temp += ",";
+ 			bsaindexentry temp_bie = it->second;
+ 			temp += temp_bie.to_string();
+ 			temp += ",";
  			}
  	}
  	temp += ">";
@@ -167,20 +167,20 @@ void bsaindex::load(std::istream& is)
   // sizes to figure out the offset of each file within Global.BSA. 
 
   for (unsigned int entry_number = 0; entry_number < get_entry_count(); entry_number++) {
-    bsaindexentry* e = new bsaindexentry();
-    e->set_offset(local_offset);
-    try {
-      e->read(is);
-    } catch (int e) {
-      std::cerr << "Exception in bsaindexentry.read(): " << e << std::endl;
-    }
+	  bsaindexentry* e = new bsaindexentry();
+	  e->set_offset(local_offset);
+	  try {
+		  e->read(is);
+	  } catch (int e) {
+		  std::cerr << "Exception in bsaindexentry.read(): " << e << std::endl;
+	  }
 
-    local_offset += e->get_size();
-  
-    const std::string key = e->get_name();
-    entries.insert( std::pair<std::string, bsaindexentry&>(key, *e) );
-    delete e;
-    e = NULL;
+	  local_offset += e->get_size();
+
+	  const std::string key = e->get_name();
+	  entries.insert( std::pair<std::string, bsaindexentry>(key, *e) );
+	  delete e;
+	  e = NULL;
   }
 }
 

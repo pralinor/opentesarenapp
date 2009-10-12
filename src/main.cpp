@@ -61,6 +61,19 @@ void test_dataextractionmain(const char* f) {
   std::cout << dem.to_string() << std::endl;
 }
 
+void test_rle() {
+	unsigned short test[2];
+	test[1] = 'a';
+	test[2] = 'b';
+	unsigned short rle_encoded[2];
+	unsigned short rle_decoded[2];
+
+	utils::encode_rle(test,rle_encoded, 2);
+	std::cout << "rle encoded: " << rle_encoded[1] << rle_encoded[2] << std::endl;
+	utils::decode_rle(rle_encoded, rle_decoded, 2);
+	std::cout << "rle decoded: " << rle_decoded[1] << rle_decoded[2] << std::endl;
+}
+
 int main(int argc, char**argv) {
 
   //test_bsaindexentry();
@@ -68,13 +81,14 @@ int main(int argc, char**argv) {
   if (argc >= 2) {
 	  try {
               std::cout << "file: " << argv[1] << std::endl;
-              test_dataextractionmain(argv[1]);
+              //test_dataextractionmain(argv[1]);
+              test_rle();
 	  } catch (int e) {
               std::cout << "exception: " << e << std::endl;
 	  }
+  } else {
+    std::cout << "no go! " << argc << std::endl;
   }
 
-  else
-    std::cout << "no go! " << argc << std::endl;
   return 0;
 }

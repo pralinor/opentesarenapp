@@ -36,13 +36,10 @@ globalbsa::globalbsa(const char *filename):
   nr_entries(),
   index()
 {
-
-	std::cout << "good: " << global_bsa_stream.good() << std::endl;
-
-	//if (global_bsa_stream.good())
+	if (global_bsa_stream.good())
 		init();
-	//else
-	//	throw -2;
+	else
+		throw -2;
 }
 
 globalbsa::globalbsa(const std::string filename):
@@ -52,7 +49,6 @@ globalbsa::globalbsa(const std::string filename):
   nr_entries(),
   index()
 {
-	//std::cout << "good: " << global_bsa_stream.good() << std::endl;
 	if (global_bsa_stream.good())
 		init();
 	else
@@ -66,7 +62,6 @@ globalbsa::globalbsa(const globalbsa& other):
   nr_entries(),
   index()
 {
-	std::cout << "good: " << global_bsa_stream.good() << std::endl;
 	if (global_bsa_stream.good())
 		init();
 	else

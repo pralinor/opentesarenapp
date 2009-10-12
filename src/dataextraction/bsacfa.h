@@ -26,9 +26,39 @@
  *       most of the compression.
  */
 
+#include <iostream>
+#include <boost/format.hpp>
+#include <cstring>
+
 #include "bsaheader.h"
+#include "bsaheadercfa.h"
 
 class bsacfa {
+	private:
+		bsaheadercfa header;
+		long offset;
+		int size;
+		std::string filename;
+		unsigned short pitch;
+		unsigned int** frames;
+
+	public:
+		bsacfa();
+		~bsacfa();
+
+		virtual std::string get_filename() const;
+		virtual bsaheadercfa get_header() const;
+		virtual long get_offset() const;
+		virtual int get_size() const;
+
+		virtual void set_filename(std::string filename);
+		virtual void set_header(bsaheadercfa header);
+		virtual void set_offset(long  offset);
+		virtual void set_size(int size);
+
+		virtual void load(std::istream& is);
+
+	    virtual void operator= (const bsacfa& other);
 };
 
 #endif /* _BSACFA_H_ */
